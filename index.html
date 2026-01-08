@@ -1,68 +1,146 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Manoj's Personal Site</title>
-  </head>
-  <body>
-    <table cellspacing="20">
-      <tr>
-        <td><img src="Image/manoj.png" alt="Majunu manoj's profile picture"></td>
-        <td><h1>Manoj</h1>
-        <p><em>This is <strong>Manoj's</strong> Personal website</em></p>
-          <p>Iam a Software Engineer</p></td>
-      </tr>
-    </table>
-    <hr>
-    <h3>Education</h3>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sambana Manoj Kumar | DevOps Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Sambana Manoj Kumar</h1>
+  <p class="subtitle">
+    DevOps Engineer | AWS | Kubernetes | CI/CD | Terraform | GitOps
+  </p>
+
+  <div class="links">
+    <a href="https://github.com/manojsambana443" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/manoj-kumar-sambana-900b5216b/" target="_blank">LinkedIn</a>
+    <a href="SambanaScalerResume.pdf" target="_blank">Resume</a>
+  </div>
+</header>
+
+<section>
+  <h2>About Me</h2>
+  <p>
+    DevOps Engineer with 2+ years of experience supporting cloud infrastructure,
+    CI/CD pipelines, and containerized applications. Hands-on experience with AWS,
+    Kubernetes, Infrastructure as Code, and automation, with a strong focus on
+    reliability, scalability, and deployment consistency. I enjoy building
+    production-ready systems and automating manual operational workflows.
+  </p>
+</section>
+
+<section>
+  <h2>Professional Experience</h2>
+
+  <p>
+    <strong>DevOps / Cloud Engineer</strong><br>
+    <span class="muted">Infrastructure & Platform Support | 2+ Years</span>
+  </p>
+
+  <ul>
+    <li>Supported cloud infrastructure and CI/CD pipelines for containerized applications across development and testing environments.</li>
+    <li>Worked extensively with AWS services including EC2, VPC, IAM, EKS, ECR, and CloudWatch.</li>
+    <li>Built and maintained CI pipelines using Jenkins and GitHub Actions for automated builds and deployments.</li>
+    <li>Deployed and managed applications on Kubernetes clusters, handling deployments, services, scaling, and updates.</li>
+    <li>Implemented GitOps-based continuous delivery using Argo CD and Helm.</li>
+    <li>Automated infrastructure provisioning and configuration using Terraform, Ansible, and CloudFormation.</li>
+    <li>Implemented monitoring with Prometheus and Grafana and centralized logging using Fluent Bit and ELK/CloudWatch.</li>
+    <li>Performed Linux system administration tasks including troubleshooting, validation, and log analysis.</li>
+    <li>Collaborated with development teams to resolve deployment and infrastructure issues.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Projects</h2>
+
+  <div class="project">
+    <h3>End-to-End CI/CD Pipeline on Amazon EKS</h3>
+    <p>
+      Designed and implemented a production-style CI/CD pipeline for containerized
+      applications deployed on Amazon EKS.
+    </p>
     <ul>
-      <li>Sainath Vidya Peetham</li>
-      <li>Sri Chaitanya Junior College</li>
-      <li>Lendi Institute of engineering and technology</li>
+      <li>CI pipelines using Jenkins and GitHub Actions</li>
+      <li>GitOps-based CD using Argo CD and Helm</li>
+      <li>Container image management using Amazon ECR</li>
+      <li>Monitoring with Prometheus and Grafana</li>
+      <li>Centralized logging using Fluent Bit and CloudWatch</li>
+      <li>Secure authentication using GitHub OIDC with AWS IAM</li>
     </ul>
-    <hr>
-         <h3>My Hobbies</h3>
-         <ol>
-           <li>Playing Cricket</li>
-           <li>Writting Short stories</li>
-           <li>Bing watching web-series</li>
-         </ol>
-         <hr>
-         <h3>Work Experience</h3>
-         <table>
-           <thead>
-             <tr>
-               <th>Dates</th>
-               <th>Work</th>
-             </tr>
-           </thead>
-           <tbody>
-             <tr>
-               <td>2020-2022</td>
-               <td>Mindtree</td>
-             </tr>
-             <tr>
-               <td>2019-2020</td>
-               <td>BHEL</td>
-             </tr>
-           </tbody>
-         </table>
-         <hr>
-         <h3>Skills</h3>
-         <table cell spacing="10">
-           <tr>
-             <td>Web development</td>
-             <td>⭐⭐⭐⭐⭐</td>
-           </tr>
-             <tr>
-               <td>IOS development</td>
-               <td>⭐⭐⭐⭐</td>
-             </tr>
-               <tr>
-                 <td>Photography</td>
-                 <td>⭐⭐</td>
-               </tr>
-         </table>
-         <a href="Contact Me.html">Contact Me</a>
-  </body>
+    <p class="tech"><strong>Tech:</strong> AWS, EKS, Jenkins, GitHub Actions, Docker, Kubernetes, Helm, Argo CD</p>
+    <a href="https://github.com/manojsambana443/aws-devops-ci-cd-eks" target="_blank">
+      View on GitHub →
+    </a>
+  </div>
+
+  <div class="project">
+    <h3>Cloud Infrastructure Automation on GCP</h3>
+    <p>
+      Automated cloud infrastructure provisioning and database configuration
+      using Infrastructure as Code and configuration management tools.
+    </p>
+    <ul>
+      <li>Provisioned Google Cloud infrastructure using Terraform</li>
+      <li>Automated MySQL installation and configuration using Ansible roles</li>
+      <li>Performed Linux system validation and service health checks</li>
+      <li>Built consistent and repeatable infrastructure environments</li>
+    </ul>
+    <p class="tech"><strong>Tech:</strong> GCP, Terraform, Ansible, Linux, MySQL</p>
+    <a href="https://github.com/manojsambana443/gcp-terraform-ansible-mysql" target="_blank">
+      View on GitHub →
+    </a>
+  </div>
+
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <ul class="skills">
+    <li><strong>Cloud:</strong> AWS (EC2, VPC, IAM, EKS, ECR, CloudWatch), GCP</li>
+    <li><strong>Infrastructure & IaC:</strong> Terraform, Ansible, CloudFormation</li>
+    <li><strong>CI/CD & GitOps:</strong> Jenkins, GitHub Actions, GitLab CI/CD, Argo CD</li>
+    <li><strong>Containers:</strong> Docker, Kubernetes, Helm</li>
+    <li><strong>Monitoring & Logging:</strong> Prometheus, Grafana, ELK Stack, Fluent Bit</li>
+    <li><strong>Databases & Messaging:</strong> MySQL, MongoDB, Redis, Kafka, Elasticsearch</li>
+    <li><strong>OS & Scripting:</strong> Linux (Ubuntu, RHEL), Bash, Python</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Hands-on Practice</h2>
+  <ul>
+    <li>Kubernetes deployments, scaling, and service exposure</li>
+    <li>GitOps workflows using Argo CD</li>
+    <li>Terraform module structuring and state management</li>
+    <li>Linux system validation and troubleshooting</li>
+    <li>Monitoring, metrics analysis, and log investigation</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Currently Focusing On</h2>
+  <ul>
+    <li>Kubernetes & GitOps-based deployment workflows</li>
+    <li>Infrastructure automation and reliability improvements</li>
+    <li>Building production-ready DevOps pipelines</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>Email: <strong>manojsambana443@gmail.com</strong></p>
+  <p>Location: Hyderabad, India</p>
+</section>
+
+<footer>
+  <p>© 2026 Sambana Manoj Kumar</p>
+</footer>
+
+</body>
 </html>
+
+
