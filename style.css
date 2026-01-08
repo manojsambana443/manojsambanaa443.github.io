@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 40px;
+  background-color: #ffffff;
+  color: #111;
+  line-height: 1.6;
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 34px;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #444;
+}
+
+.links a {
+  margin-right: 16px;
+  text-decoration: none;
+  color: #0066cc;
+  font-weight: bold;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  margin-top: 50px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #ddd;
+}
+
+.project {
+  margin-top: 25px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.project h3 {
+  margin-top: 0;
+}
+
+.project ul {
+  margin-left: 18px;
+}
+
+.project .tech {
+  margin-top: 10px;
+}
+
+.project a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0066cc;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+.skills li {
+  margin-bottom: 8px;
+}
+
+.muted {
+  color: #666;
+}
+
+footer {
+  margin-top: 60px;
+  font-size: 14px;
+  color: #666;
+}
+
+/* SAFETY: ensure links are always clickable */
+a {
+  pointer-events: auto;
+  position: relative;
+  z-index: 5;
+}
